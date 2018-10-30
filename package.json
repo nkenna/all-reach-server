@@ -1,0 +1,29 @@
+{
+  "name": "allreach",
+  "version": "1.0.0",
+  "description": "NodeJS server for allreach App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "nodeJS",
+    "ionic",
+    "expressJS"
+  ],
+  "author": "Ugwumsinachi Nnadi",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "moment": "^2.22.2",
+    "mongoose": "^5.3.2",
+    "nodemailer": "^4.6.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
